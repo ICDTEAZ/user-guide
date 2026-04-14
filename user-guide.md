@@ -39,7 +39,8 @@ Route: `/auth/register`
 ขั้นตอนใช้งาน  
 1. เปิดหน้า `/auth/register` 
 ![เปิดหน้า `/auth/register`](./ไม่มีชื่อ.png) 
-2. กรอกข้อมูล username 
+2. กรอกข้อมูล username
+![กรอกข้อมูล username](./)
 3. กรอกข้เอมูล password 
 4. กดปุ่มสมัครสมาชิก
 
