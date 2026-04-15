@@ -38,13 +38,13 @@ Route: `/auth/register`
 
 ขั้นตอนใช้งาน  
 1. เปิดหน้า `/auth/register` 
-![เปิดหน้า `/auth/register`](./register/register.png) 
+![เปิดหน้า `/auth/register`](./user/register/register.png) 
 2. กรอกข้อมูล username
-![กรอกข้อมูล username](./register/username.png)
+![กรอกข้อมูล username](./user/register/username.png)
 3. กรอกข้อมูล password 
-![กรอกข้อมูล password](./register/password.png)
+![กรอกข้อมูล password](./user/register/password.png)
 4. กดปุ่มสมัครสมาชิก
-![กดปุ่มสมัครสมาชิก](./register/conferm.png)
+![กดปุ่มสมัครสมาชิก](./user/register/conferm.png)
 ผลลัพธ์ที่ควรเห็น  
 ระบบแสดงฟอร์มสมัครสมาชิกครบทุกช่องที่จำเป็น และหลังส่งข้อมูลแล้วต้องมีข้อความยืนยันความสำเร็จหรือข้อความแจ้งข้อผิดพลาดของข้อมูลที่กรอก
 
@@ -65,13 +65,13 @@ Route: `/auth/login`
 
 ขั้นตอนใช้งาน  
 1. เปิดหน้า `/auth/login` 
-![เปิดหน้า `/auth/login](./login/login.png)  
+![เปิดหน้า `/auth/login](./user/login/login.png)  
 2. กรอก username
-![กรอก username](./login/logusername.png) 
+![กรอก username](./user/login/logusername.png) 
 3. กรอก password 
-![กรอก password](./login/logpassword.png) 
+![กรอก password](./user/login/logpassword.png) 
 4. กดปุ่มเข้าสู่ระบบ  
-![กดปุ่มเข้าสู่ระบบ](./login/logcon.png) 
+![กดปุ่มเข้าสู่ระบบ](./user/login/logcon.png) 
 5. รอระบบพาไปยังหน้าที่ผู้ใช้มีสิทธิ์เข้าใช้งาน หน้า private
 
 ผลลัพธ์ที่ควรเห็น  
@@ -107,103 +107,103 @@ Route: `/private/eol-system`
 Route: `/private`
 
 1. คลิกที่ start test ->
-![คลิกที่ start test](./test-and-evaluation/start.png) 
+![คลิกที่ start test](./user/test-and-evaluation/start.png) 
 2. เลือก skill ที่ต้องการทดสอบ 
-![เลือก skill](./test-and-evaluation/choose.png) 
+![เลือก skill](./user/test-and-evaluation/choose.png) 
 3. เลือก level ที่ต้องการทดสอบ หากระดับยังไม่ถึงจะไม่สามารถกดได้
-![เลือก level](./test-and-evaluation/choosediffuculty.png) 
+![เลือก level](./user/test-and-evaluation/choosediffuculty.png) 
 4. กรอกจำนวนคำถามที่ต้องการทดสอบ 
-![รอกจำนวนคำถามที่ต้องการทดสอบ](./test-and-evaluation/howmany.png)  
+![รอกจำนวนคำถามที่ต้องการทดสอบ](./user/test-and-evaluation/howmany.png)  
 5. กดปุ่ม start เพื่อเริ่มการทดสอบ
-![กดปุ่ม start](./test-and-evaluation/startexam.png) 
+![กดปุ่ม start](./user/test-and-evaluation/startexam.png) 
 6. ข้อสอบจะบันทึกข้อสอบของท่านว่าทำไปกี่ข้อแล้ว เช่น 1/10, 2/10
-![ข้อสอบจะบันทึกข้อสอบของท่านว่าทำไปกี่ข้อแล้ว เช่น 1/10, 2/10](./test-and-evaluation/send.png) 
+![ข้อสอบจะบันทึกข้อสอบของท่านว่าทำไปกี่ข้อแล้ว เช่น 1/10, 2/10](./user/test-and-evaluation/send.png) 
 7. หากต้องการ ส่งข้อสอบก่อนให้กดปุ่มส่ง ขวาบนได้
-![หากต้องการ ส่งข้อสอบก่อนให้กดปุ่มส่ง ขวาบนได้](./test-and-evaluation/send.png) 
+![หากต้องการ ส่งข้อสอบก่อนให้กดปุ่มส่ง ขวาบนได้](./user/test-and-evaluation/send.png) 
 8. หากทำข้อสอบมาระยะนึง แล้วต้องการตรวจสอบข้อก่อนหน้าให้ กดปุ่ม ย้อนกลับ
-![หากทำข้อสอบมาระยะนึง แล้วต้องการตรวจสอบข้อก่อนหน้าให้ กดปุ่ม ย้อนกลับ](./test-and-evaluation/return.png)  
+![หากทำข้อสอบมาระยะนึง แล้วต้องการตรวจสอบข้อก่อนหน้าให้ กดปุ่ม ย้อนกลับ](./user/test-and-evaluation/return.png)  
 9. หากต้องการดูข้อถัดไปให้กดปุ่ม ถัดไป
-![หากต้องการดูข้อถัดไปให้กดปุ่ม ถัดไป](./test-and-evaluation/next.png) 
+![หากต้องการดูข้อถัดไปให้กดปุ่ม ถัดไป](./user/test-and-evaluation/next.png) 
 10. หากต้องการ ดูข้อที่ไม่มั่นใจ ให้กดปุ่มไปยังข้อนั้น ๆ
-![หากต้องการ ดูข้อที่ไม่มั่นใจ ให้กดปุ่มไปยังข้อนั้น ๆ](./test-and-evaluation/returnto.png) 
+![หากต้องการ ดูข้อที่ไม่มั่นใจ ให้กดปุ่มไปยังข้อนั้น ๆ](./user/test-and-evaluation/returnto.png) 
 11. หากตรวจคำตอบเสร็จแล้ว ให้กดปุ่มส่งข้อสอบ เพื่อส่งข้อสอบทั้งหมดไปยัง
-![หากตรวจคำตอบเสร็จแล้ว ให้กดปุ่มส่งข้อสอบ เพื่อส่งข้อสอบทั้งหมดไปยัง](./test-and-evaluation/complete.png)  
+![หากตรวจคำตอบเสร็จแล้ว ให้กดปุ่มส่งข้อสอบ เพื่อส่งข้อสอบทั้งหมดไปยัง](./user/test-and-evaluation/complete.png)  
 12. หากข้อสอบมีปัญหา ให้กดปุ่มขวาล่าง เพื่อแจ้งปัญหา
-![หากข้อสอบมีปัญหา ให้กดปุ่มขวาล่าง เพื่อแจ้งปัญหา](./test-and-evaluation/report.png) 
+![หากข้อสอบมีปัญหา ให้กดปุ่มขวาล่าง เพื่อแจ้งปัญหา](./user/test-and-evaluation/report.png) 
 13. กรอกรายละเอียดของปัญหา และกดปุ่มส่งรายงาน
-![กรอกรายละเอียดของปัญหา และกดปุ่มส่งรายงาน](./test-and-evaluation/sendreport.png) 
+![กรอกรายละเอียดของปัญหา และกดปุ่มส่งรายงาน](./user/test-and-evaluation/sendreport.png) 
 check-your-answer 
 
 2.1.2 check-your-answer
 Route: `/private/check-your-answer`
 1. หลังจากส่งข้อสอบแล้ว ระบบจะพาไปยังหน้าตรวจคำตอบ
 2. ระบบจะทำการตรวจสอบคำตอบที่ทำไปทั้งหมด และคะแนนที่ได้
-![ระบบจะทำการตรวจสอบคำตอบที่ทำไปทั้งหมด และคะแนนที่ได้](./check-your-answer/correct.png) 
+![ระบบจะทำการตรวจสอบคำตอบที่ทำไปทั้งหมด และคะแนนที่ได้](./user/check-your-answer/correct.png) 
 3. ระบบจะแสดงรายระเอียดของแต่ละข้อ ว่า คุณทำข้อไหน และ ตอบอะไร แต่จะไม่แสดงข้อที่ถูกหรือผิด แต่จะบอกว่าข้อไหนผิด
    1. ตัวอย่าง ข้อที่ผิด
-   ![ตัวอย่าง ข้อที่ผิด](./check-your-answer/wrong.png) 
+   ![ตัวอย่าง ข้อที่ผิด](./user/check-your-answer/wrong.png) 
    2. ตัวอย่างข้อที่ถูก
-   ![ตัวอย่างข้อที่ถูก](./check-your-answer/correct2.png) 
+   ![ตัวอย่างข้อที่ถูก](./user/check-your-answer/correct2.png) 
 4. ระบบสามารถพาท่านไปยังบทเรียนที่เกี่ยวข้องได้ โดยกดปุ่ม ไปที่บทเรียน
-![ระบบสามารถพาท่านไปยังบทเรียนที่เกี่ยวข้องได้ โดยกดปุ่ม ไปที่บทเรียน](./check-your-answer/golearn.png) 
+![ระบบสามารถพาท่านไปยังบทเรียนที่เกี่ยวข้องได้ โดยกดปุ่ม ไปที่บทเรียน](./user/check-your-answer/golearn.png) 
 5. หากศึกษาแล้วไม่เข้าใจ สามารถ กดที่ช่อง ask our acamic เพื่อสอบถามอาจารย์ได้
-![หากศึกษาแล้วไม่เข้าใจ สามารถ กดที่ช่อง ask our acamic เพื่อสอบถามอาจารย์ได้](./check-your-answer/ask.png) 
+![หากศึกษาแล้วไม่เข้าใจ สามารถ กดที่ช่อง ask our acamic เพื่อสอบถามอาจารย์ได้](./user/check-your-answer/ask.png) 
 6. หากต้องการเริ่มทำไหม่ ในหัวข้อเดิม ให้กดปุ่ม เริ่มทำข้อสอบอีกครั้ง เพื่อกลับไปยัง หน้าก่อนเริ่มเลิก skill และ level อีกครั้ง
-![หากต้องการเริ่มทำไหม่ ในหัวข้อเดิม ให้กดปุ่ม เริ่มทำข้อสอบอีกครั้ง เพื่อกลับไปยัง หน้าก่อนเริ่มเลิก skill และ level อีกครั้ง](./check-your-answer/retry.png) 
+![หากต้องการเริ่มทำไหม่ ในหัวข้อเดิม ให้กดปุ่ม เริ่มทำข้อสอบอีกครั้ง เพื่อกลับไปยัง หน้าก่อนเริ่มเลิก skill และ level อีกครั้ง](./user/check-your-answer/retry.png) 
 7. สามารถกด Ranking เพื่อดู report ในทีได้
-![ามารถกด Ranking เพื่อดู report ในทีได้](./check-your-answer/ranking.png) 
+![ามารถกด Ranking เพื่อดู report ในทีได้](./user/check-your-answer/ranking.png) 
 
 ### 2.2 หน้าบทเรียน
 Route: `/private/lesson`
 1. หลังจากทำข้อสอบแล้ว หากต้องการศึกษาเพิ่มเติม สามารถกดปุ่ม lesson ที่หน้า private เพื่อไปยังหน้าบทเรียนได้
-![หลังจากทำข้อสอบแล้ว หากต้องการศึกษาเพิ่มเติม สามารถกดปุ่ม lesson ที่หน้า private เพื่อไปยังหน้าบทเรียนได้](./Learn/menu.png) 
+![หลังจากทำข้อสอบแล้ว หากต้องการศึกษาเพิ่มเติม สามารถกดปุ่ม lesson ที่หน้า private เพื่อไปยังหน้าบทเรียนได้](./user/Learn/menu.png) 
 2. เลือก skill ที่ต้องการศึกษา
-![เลือก skill ที่ต้องการศึกษา](./Learn/skill.png) 
+![เลือก skill ที่ต้องการศึกษา](./user/Learn/skill.png) 
 3. เลือก level ที่ต้องการศึกษา
-![เลือก level ที่ต้องการศึกษา](./Learn/level.png) 
+![เลือก level ที่ต้องการศึกษา](./user/Learn/level.png) 
 4. ระบบจะแสดงบทเรียนที่เกี่ยวข้องกับ skill และ level ที่เลือก
-![ระบบจะแสดงบทเรียนที่เกี่ยวข้องกับ skill และ level ที่เลือก](./Learn/select.png) 
+![ระบบจะแสดงบทเรียนที่เกี่ยวข้องกับ skill และ level ที่เลือก](./user/Learn/select.png) 
 5. เลือก หัวข้อที่ต้องการศึกษา ด้วยการกดปุ่มดู
-![เลือก หัวข้อที่ต้องการศึกษา ด้วยการกดปุ่มดู](./Learn/click.png) 
+![เลือก หัวข้อที่ต้องการศึกษา ด้วยการกดปุ่มดู](./user/Learn/click.png) 
 6. พิมชื่อเรื่องที่ต้องการเรียน ที่มีอยู่ในระบบเพื่อค้นหา เช่น Figurative Language (ภาษาภาพพจน์)
-![พิมชื่อเรื่องที่ต้องการเรียน ที่มีอยู่ในระบบเพื่อค้นหา เช่น Figurative Language (ภาษาภาพพจน์)](./Learn/search.png) 
+![พิมชื่อเรื่องที่ต้องการเรียน ที่มีอยู่ในระบบเพื่อค้นหา เช่น Figurative Language (ภาษาภาพพจน์)](./user/Learn/search.png) 
 7. หากต้องการที่จะคัดกรองไหม่ ให้กดปุ่ม กลับไปคัดกรอง ที่ มุมขวาบน เพื่อกลับไปเลือก skill
-![หากต้องการที่จะคัดกรองไหม่ ให้กดปุ่ม กลับไปคัดกรอง ที่ มุมขวาบน เพื่อกลับไปเลือก skill](./Learn/return.png) 
+![หากต้องการที่จะคัดกรองไหม่ ให้กดปุ่ม กลับไปคัดกรอง ที่ มุมขวาบน เพื่อกลับไปเลือก skill](./user/Learn/return.png) 
 
 ### 2.3 หน้ารายงาน
 Route: `/private/report`
 1. หน้า report จะแสดงผลการสอบครั้งล่าสุด หรือ สูงสุดของผู้ไช้ใน skill การสอบครั้งล่าสุด
 2. ค่าเริ่มต้นจะอยู่ที่ 1 เดือนล่าสุด
-![หน้า report จะแสดงผลการสอบครั้งล่าสุด หรือ สูงสุดของผู้ไช้ใน skill การสอบครั้งล่าสุด](./reports/return.png) 
+![หน้า report จะแสดงผลการสอบครั้งล่าสุด หรือ สูงสุดของผู้ไช้ใน skill การสอบครั้งล่าสุด](./user/reports/return.png) 
 3. สามารถเลือกช่วงเวลาที่ต้องการดูรายงานได้ โดยกดปุ่ม เลือกช่วงเวลา
    1. เลือกวันเริ่มต้น
-   ![ลือกวันเริ่มต้น](./reports/start.png) 
+   ![ลือกวันเริ่มต้น](./user/reports/start.png) 
    2. เลือกวันสิ้นสุด
-   ![เลือกวันสิ้นสุด](./reports/finish.png) 
+   ![เลือกวันสิ้นสุด](./user/reports/finish.png) 
    3. กดปุ่ม ดูตามวันที่เลือก
-   ![กดปุ่ม ดูตามวันที่เลือก](./reports/click.png) 
+   ![กดปุ่ม ดูตามวันที่เลือก](./user/reports/click.png) 
 4. สามารถเลือก skill ที่ต้องการดูรายงานได้ โดยกดปุ่ม เลือก ประเภท 
    1. เลือก skill ที่ต้องการดูรายงาน
-   ![ลือก skill ที่ต้องการดูรายงา](./reports/skill.png) 
+   ![ลือก skill ที่ต้องการดูรายงา](./user/reports/skill.png) 
    2. กดปุ่ม ดูตามระดับที่เลือก
-   ![กดปุ่ม ดูตามระดับที่เลือก](./reports/level.png)
+   ![กดปุ่ม ดูตามระดับที่เลือก](./user/reports/level.png)
    3. กดปุ่มไช้ตัวกรองประภท/ระดับ
-    ![กดปุ่มไช้ตัวกรองประภท/ระดับ](./reports/กด.png)
+    ![กดปุ่มไช้ตัวกรองประภท/ระดับ](./user/reports/กด.png)
     4. ตัวอย่าง ranking ในเวลาที่เลือก
-    ![ตัวอย่าง ranking ในเวลาที่เลือก](./reports/rank.png)
+    ![ตัวอย่าง ranking ในเวลาที่เลือก](./user/reports/rank.png)
     5. ตัวอย่างประวัติการสอบใน skill และ level ที่เลือก
-    ![ตัวอย่างประวัติการสอบใน skill และ level ที่เลือก](./reports/history.png)
+    ![ตัวอย่างประวัติการสอบใน skill และ level ที่เลือก](./user/reports/history.png)
 
 ### 2.4 EOL Standard Test 
 Route: `/private/eol-standard-test`
 
 1. เกณฑ์ใช้งาน: ต้องผ่านคะแนน 50% ขึ้นไป ในทุกสกิล (Reading, Listening, Speaking, Writing, Grammar, Vocabulary) ที่ระดับ B1 ขึ้นไป ก่อนเริ่ม EOL Standard Test
-![เกณฑ์ใช้งาน: ต้องผ่านคะแนน 50% ขึ้นไป ในทุกสกิล (Reading, Listening, Speaking, Writing, Grammar, Vocabulary) ที่ระดับ B1 ขึ้นไป ก่อนเริ่ม EOL Standard Test](./2.4/condition.png)
+![เกณฑ์ใช้งาน: ต้องผ่านคะแนน 50% ขึ้นไป ในทุกสกิล (Reading, Listening, Speaking, Writing, Grammar, Vocabulary) ที่ระดับ B1 ขึ้นไป ก่อนเริ่ม EOL Standard Test](./user/2.4/condition.png)
     1. ตัวอย่าง: ไม่ผ่านเงื่อนไข
-    ![ตัวอย่าง: ไม่ผ่านเงื่อนไข](./2.4/banned.png)
+    ![ตัวอย่าง: ไม่ผ่านเงื่อนไข](./user/2.4/banned.png)
     2. หลังจากผ่านเกณฑ์แล้ว สามารถกดปุ่ม เริ่มสอบ เพื่อเข้าสู่หน้าสอบ EOL Standard Test
-    ![หลังจากผ่านเกณฑ์แล้ว สามารถกดปุ่ม เริ่มสอบ เพื่อเข้าสู่หน้าสอบ EOL Standard Test](./2.4/ok.png)
+    ![หลังจากผ่านเกณฑ์แล้ว สามารถกดปุ่ม เริ่มสอบ เพื่อเข้าสู่หน้าสอบ EOL Standard Test](./user/2.4/ok.png)
 2. หากผ่านแล้ว ให้ กดปุ่ม EOL standard test เพื่อเข้าสู่หน้าสอบ EOL Standard Test
 3. เริ่มทำข้อสอบ EOL Standard Test โดยทำตามขั้นตอนการทำข้อสอบเหมือนกับการทำข้อสอบในหัวข้อ test-and-evaluation
 4. sohk report จะทำการประเมินผู้ไช้หลังจากสอบเสร็จ ตามมาตรฐาน CEFR และแสดงผลการสอบในหน้ารายงาน
-![sohk report จะทำการประเมินผู้ไช้หลังจากสอบเสร็จ ตามมาตรฐาน CEFR และแสดงผลการสอบในหน้ารายงาน](./2.4/done.png)
+![sohk report จะทำการประเมินผู้ไช้หลังจากสอบเสร็จ ตามมาตรฐาน CEFR และแสดงผลการสอบในหน้ารายงาน](./user/2.4/done.png)
