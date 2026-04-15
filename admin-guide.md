@@ -195,6 +195,7 @@ Route: `/private/admin/academic/question`
 
 ขั้นตอนใช้งาน  
 1. เปิดหน้า `/private/admin/academic/question`  
+![เปิดหน้า `/private/admin/academic/question`  ](./admin/question'/menu.png)   
 2. ตรวจสอบตัวเลือกงานหลักที่ระบบแสดง  
 3. เลือกว่าจะไปดูรายการข้อสอบหรือเพิ่มข้อสอบใหม่
 
@@ -202,8 +203,7 @@ Route: `/private/admin/academic/question`
 หน้าต้องแสดงทางเข้าหลักของงาน Question อย่างชัดเจน และนำไปยัง flow ถัดไปได้ถูกต้อง
 
 รูปประกอบ
-![หน้า Question Overview แสดงการ์ดทางเข้าไปยังรายการข้อสอบและหน้าสำหรับเพิ่มข้อสอบใหม่](./assets/screenshots/admin/test.png)  
-Path: `./assets/screenshots/admin/test.png`  
+![หน้า Question Overview แสดงการ์ดทางเข้าไปยังรายการข้อสอบและหน้าสำหรับเพิ่มข้อสอบใหม่](./admin/question'/menu.png)   
 Description: หน้า Question Overview แสดงการ์ดทางเข้าไปยังรายการข้อสอบและหน้าสำหรับเพิ่มข้อสอบใหม่  
 Status: `placeholder`
 
@@ -218,15 +218,18 @@ Route: `/private/admin/academic/question/list`
 
 ขั้นตอนใช้งาน  
 1. เปิดหน้า `/private/admin/academic/question/list`  
+![เปิดหน้า `/private/admin/academic/question/list`](/admin/question'/list.png)
 2. ตรวจสอบรายการ skill ที่ระบบเปิดให้เลือก  
+![ตรวจสอบรายการ skill ที่ระบบเปิดให้เลือก  ](/admin/question'/open.png)
 3. คลิก skill ที่ต้องการเพื่อไปยังหน้าระดับของ skill นั้น
+![คลิก skill ที่ต้องการเพื่อไปยังหน้าระดับของ skill นั้น](/admin/question'/skill.png)
 
 ผลลัพธ์ที่ควรเห็น  
 หน้าต้องแสดงรายการ skill สำหรับการค้นหาหรือจัดการข้อสอบอย่างครบถ้วน
 
 รูปประกอบ
-![หน้าเลือก Skill เพื่อดูรายการข้อสอบ แสดงตัวเลือกทักษะต่าง ๆ สำหรับเข้าสู่การกรองข้อสอบ](./assets/screenshots/admin/test.png)  
-Path: `./assets/screenshots/admin/test.png`  
+![หน้าเลือก Skill เพื่อดูรายการข้อสอบ แสดงตัวเลือกทักษะต่าง ๆ สำหรับเข้าสู่การกรองข้อสอบ](/admin/question'/open.png)
+![คลิก skill ที่ต้องการเพื่อไปยังหน้าระดับของ skill นั้น](/admin/question'/skill.png)
 Description: หน้าเลือก Skill เพื่อดูรายการข้อสอบ แสดงตัวเลือกทักษะต่าง ๆ สำหรับเข้าสู่การกรองข้อสอบ  
 Status: `placeholder`
 
@@ -241,15 +244,16 @@ Route: `/private/admin/academic/question/list/level?skill=...`
 
 ขั้นตอนใช้งาน  
 1. เปิดหน้า `/private/admin/academic/question/list/level?skill=...`  
+![เปิดหน้า `/private/admin/academic/question/list/level?skill=...`  ](/admin/question'/checkmenu.png)
 2. ตรวจสอบ skill ที่กำลังใช้งานอยู่  
+![เปิดหน้า `/private/admin/academic/question/list/level?skill=...`  ](/admin/question'/checkskill.png)
 3. เลือกระดับที่ต้องการเพื่อเข้าสู่รายการข้อสอบจริง
 
 ผลลัพธ์ที่ควรเห็น  
 หน้าต้องแสดงระดับที่ใช้ได้สำหรับ skill ที่เลือก และสามารถพาไปยังรายการข้อสอบตาม skill กับ level ได้
 
 รูปประกอบ
-![หน้าเลือกระดับเพื่อดูรายการข้อสอบ แสดง level ที่สัมพันธ์กับ skill ที่เลือกไว้ก่อนหน้า](./assets/screenshots/admin/test.png)  
-Path: `./assets/screenshots/admin/test.png`  
+![หน้าเลือกระดับเพื่อดูรายการข้อสอบ แสดง level ที่สัมพันธ์กับ skill ที่เลือกไว้ก่อนหน้า](/admin/question'/checkskill.png)  
 Description: หน้าเลือกระดับเพื่อดูรายการข้อสอบ แสดง level ที่สัมพันธ์กับ skill ที่เลือกไว้ก่อนหน้า  
 Status: `placeholder`
 
@@ -263,17 +267,20 @@ Route: `/private/admin/academic/question/list/:skill/level/:level`
 ต้องเลือก skill และ level มาก่อน
 
 ขั้นตอนใช้งาน  
-1. เปิดหน้า `/private/admin/academic/question/list/:skill/level/:level`  
-2. ตรวจสอบตัวกรองที่ระบบใช้กับรายการข้อสอบ  
-3. ดูรายการข้อสอบที่แสดงในตารางหรือรายการ  
+1. เปิดหน้า `/private/admin/academic/question/list/:skill/level/:level` 
+![เปิดหน้า `/private/admin/academic/question/list/:skill/level/:level`](/admin/question'/overview.png) 
+2. ตรวจสอบตัวกรองที่ระบบใช้กับรายการข้อสอบ 
+![ตรวจสอบตัวกรองที่ระบบใช้กับรายการข้อสอบ ](/admin/question'/overviewfilter.png)  
+3. ดูรายการข้อสอบที่แสดงในตารางหรือรายการ
+![ดูรายการข้อสอบที่แสดงในตารางหรือรายการ](/admin/question'/overviewquestion.png)   
 4. เลือกข้อสอบที่ต้องการเปิดไปยังหน้ารายละเอียดหรือแก้ไข
+![เลือกข้อสอบที่ต้องการเปิดไปยังหน้ารายละเอียดหรือแก้ไข](/admin/question'/overviewchoose.png) 
 
 ผลลัพธ์ที่ควรเห็น  
 หน้าต้องแสดงข้อสอบที่ตรงกับ skill และ level ที่เลือก พร้อม action หลักสำหรับเปิดดูหรือแก้ไขข้อสอบ
 
 รูปประกอบ
-![หน้ารายการข้อสอบตาม Skill และ Level แสดงตารางข้อสอบ ตัวกรอง และปุ่มเปิดไปแก้ไขข้อสอบ](./assets/screenshots/admin/test.png)  
-Path: `./assets/screenshots/admin/test.png`  
+![หน้ารายการข้อสอบตาม Skill และ Level แสดงตารางข้อสอบ ตัวกรอง และปุ่มเปิดไปแก้ไขข้อสอบ](/admin/question'/overview.png)  
 Description: หน้ารายการข้อสอบตาม Skill และ Level แสดงตารางข้อสอบ ตัวกรอง และปุ่มเปิดไปแก้ไขข้อสอบ  
 Status: `placeholder`
 
@@ -288,15 +295,17 @@ Route: `/private/admin/academic/question/add`
 
 ขั้นตอนใช้งาน  
 1. เปิดหน้า `/private/admin/academic/question/add`  
+![เปิดหน้า `/private/admin/academic/lesson/add`](./admin/lesson/add.png)  
 2. ตรวจสอบรายการ skill ที่ระบบอนุญาตให้เพิ่มข้อสอบ  
+![ตรวจสอบรายการ skill ที่ระบบอนุญาตให้เพิ่มข้อสอบ](./admin/addquestion/skill.png)  
 3. เลือก skill ที่ต้องการเพื่อไปยังหน้าระดับ
+![เลือก skill ที่ต้องการเพื่อไปยังหน้าระดับ](./admin/addquestion/choose.png)  
 
 ผลลัพธ์ที่ควรเห็น  
 หน้าต้องแสดงรายการ skill สำหรับการสร้างข้อสอบใหม่ และแต่ละรายการต้องพาไปยังขั้นตอนเลือกระดับได้
 
 รูปประกอบ
-![หน้าเลือก Skill เพื่อเพิ่มข้อสอบ แสดงตัวเลือกทักษะก่อนเข้าสู่ขั้นตอนเลือกระดับและฟอร์มเพิ่มข้อสอบ](./assets/screenshots/admin/test.png)  
-Path: `./assets/screenshots/admin/test.png`  
+![หน้าเลือก Skill เพื่อเพิ่มข้อสอบ แสดงตัวเลือกทักษะก่อนเข้าสู่ขั้นตอนเลือกระดับและฟอร์มเพิ่มข้อสอบ](./admin/addquestion/skill.png)  
 Description: หน้าเลือก Skill เพื่อเพิ่มข้อสอบ แสดงตัวเลือกทักษะก่อนเข้าสู่ขั้นตอนเลือกระดับและฟอร์มเพิ่มข้อสอบ  
 Status: `placeholder`
 
@@ -312,14 +321,14 @@ Route: `/private/admin/academic/question/add/level?skill=...`
 ขั้นตอนใช้งาน  
 1. เปิดหน้า `/private/admin/academic/question/add/level?skill=...`  
 2. ตรวจสอบ skill ที่กำลังจะเพิ่มข้อสอบ  
+![ตรวจสอบ skill ที่กำลังจะเพิ่มข้อสอบ ](./admin/addquestion/lookskill.png)  
 3. เลือกระดับที่ต้องการเพื่อเข้าสู่ฟอร์มเพิ่มข้อสอบ
-
+![เลือกระดับที่ต้องการเพื่อเข้าสู่ฟอร์มเพิ่มข้อสอบ](./admin/addquestion/chooseskill.png)  
 ผลลัพธ์ที่ควรเห็น  
 หน้าต้องแสดง level ที่ใช้ได้สำหรับ skill ที่เลือก และพาไปยังหน้าฟอร์มเพิ่มข้อสอบได้ถูกต้อง
 
 รูปประกอบ
-![หน้าเลือกระดับเพื่อเพิ่มข้อสอบ แสดงรายการ level ที่ใช้สร้างข้อสอบใหม่ใน skill ที่เลือกไว้](./assets/screenshots/admin/test.png)  
-Path: `./assets/screenshots/admin/test.png`  
+![หน้าเลือกระดับเพื่อเพิ่มข้อสอบ แสดงรายการ level ที่ใช้สร้างข้อสอบใหม่ใน skill ที่เลือกไว้](./admin/addquestion/lookskill.png)  
 Description: หน้าเลือกระดับเพื่อเพิ่มข้อสอบ แสดงรายการ level ที่ใช้สร้างข้อสอบใหม่ใน skill ที่เลือกไว้  
 Status: `placeholder`
 
@@ -334,16 +343,20 @@ Route: `/private/admin/academic/question/add/form?skill=...&level=...`
 
 ขั้นตอนใช้งาน  
 1. เปิดหน้า `/private/admin/academic/question/add/form?skill=...&level=...`  
+![เปิดหน้า `/private/admin/academic/question/add/form?skill=...&level=...`  ](./admin/addquestion/create.png)  
 2. ตรวจสอบค่า skill และ level ที่ระบบแสดงในฟอร์ม  
+![ตรวจสอบค่า skill และ level ที่ระบบแสดงในฟอร์ม](./admin/addquestion/check.png)  
 3. กรอกข้อมูลโจทย์ ตัวเลือก คำตอบ และข้อมูลประกอบตามที่ระบบต้องการ  
+![กรอกข้อมูลโจทย์ ตัวเลือก คำตอบ และข้อมูลประกอบตามที่ระบบต้องการ](./admin/addquestion/type.png)  
 4. บันทึกข้อสอบใหม่ และตรวจสอบผลลัพธ์หลังบันทึก
+![บันทึกข้อสอบใหม่ และตรวจสอบผลลัพธ์หลังบันทึก](./admin/addquestion/save.png)  
 
 ผลลัพธ์ที่ควรเห็น  
 หน้าต้องแสดงฟอร์มเพิ่มข้อสอบอย่างครบถ้วน และหลังบันทึกแล้วต้องพาไปยัง flow ที่เกี่ยวข้องได้อย่างถูกต้อง
 
 รูปประกอบ
-![หน้าฟอร์มเพิ่มข้อสอบของแอดมิน แสดงช่องกรอกคำถาม ตัวเลือก คำตอบ และปุ่มบันทึกข้อมูล](./assets/screenshots/admin/test.png)  
-Path: `./assets/screenshots/admin/test.png`  
+![หน้าฟอร์มเพิ่มข้อสอบของแอดมิน แสดงช่องกรอกคำถาม ตัวเลือก คำตอบ และปุ่มบันทึกข้อมูล](./admin/addquestion/create.png)  
+![บันทึกข้อสอบใหม่ และตรวจสอบผลลัพธ์หลังบันทึก](./admin/addquestion/save.png)  
 Description: หน้าฟอร์มเพิ่มข้อสอบของแอดมิน แสดงช่องกรอกคำถาม ตัวเลือก คำตอบ และปุ่มบันทึกข้อมูล  
 Status: `placeholder`
 
@@ -358,16 +371,20 @@ Route: `/private/admin/academic/question/edit?questionId=...`
 
 ขั้นตอนใช้งาน  
 1. เปิดหน้า `/private/admin/academic/question/edit?questionId=...`  
-2. ตรวจสอบข้อมูลข้อสอบเดิมที่ระบบโหลดมา  
+![เปิดหน้า `/private/admin/academic/question/edit?questionId=...`](/admin/question'/overview.png) 
+2. กดปุ่มแก้ไขในเอกสารที่ต้องการ  
+![กดปุ่มแก้ไขในเอกสารที่ต้องการ  ](/admin/editquestion/click.png) 
 3. แก้ไขข้อมูลตามที่ต้องการ  
+![แก้ไขข้อมูลตามที่ต้องการ](/admin/editquestion/edit.png) 
 4. บันทึกการเปลี่ยนแปลง และตรวจสอบผลลัพธ์หลังบันทึก
+![บันทึกการเปลี่ยนแปลง และตรวจสอบผลลัพธ์หลังบันทึก](/admin/editquestion/save.png) 
 
 ผลลัพธ์ที่ควรเห็น  
 หน้าต้องโหลดข้อมูลข้อสอบเดิมขึ้นมาให้แก้ไขได้ และมีปุ่มหรือ action สำหรับบันทึกการเปลี่ยนแปลงอย่างชัดเจน
 
 รูปประกอบ
-![หน้าแก้ไขข้อสอบของแอดมิน แสดงข้อมูลข้อสอบเดิมใน editor และปุ่มบันทึกการเปลี่ยนแปลง](./assets/screenshots/admin/test.png)  
-Path: `./assets/screenshots/admin/test.png`  
+![หน้าแก้ไขข้อสอบของแอดมิน แสดงข้อมูลข้อสอบเดิมใน editor และปุ่มบันทึกการเปลี่ยนแปลง](/admin/editquestion/edit.png) \
+![บันทึกการเปลี่ยนแปลง และตรวจสอบผลลัพธ์หลังบันทึก](/admin/editquestion/save.png)  
 Description: หน้าแก้ไขข้อสอบของแอดมิน แสดงข้อมูลข้อสอบเดิมใน editor และปุ่มบันทึกการเปลี่ยนแปลง  
 Status: `placeholder`
 
@@ -383,16 +400,17 @@ Route: `/private/admin/backoffice`
 ต้องมีสิทธิ์แอดมิน และเข้าถึงหมวด Backoffice ได้
 
 ขั้นตอนใช้งาน  
-1. เปิดหน้า `/private/admin/backoffice`  
+1. เปิดหน้า `/private/admin/backoffice` 
+![เปิดหน้า `/private/admin/backoffice`](/admin/backoffice/menu.png)  
 2. ดูรายการเมนูหลังบ้านที่ระบบเปิดใช้งาน  
+![ดูรายการเมนูหลังบ้านที่ระบบเปิดใช้งาน  ](/admin/backoffice/view.png) 
 3. เลือกไปยังงานผู้ใช้ บัตรเติมเวลา หรือโมดูล GEPOT ตามภารกิจที่ต้องทำ
 
 ผลลัพธ์ที่ควรเห็น  
 หน้าต้องแสดงการ์ดทางเข้าแต่ละโมดูลของ Backoffice อย่างชัดเจน และแต่ละรายการต้องกดเข้าใช้งานได้
 
 รูปประกอบ
-![หน้า Backoffice Overview แสดงการ์ดเมนูผู้ใช้ บัตรเติมเวลา และเมนู GEPOT backoffice](./assets/screenshots/admin/test.png)  
-Path: `./assets/screenshots/admin/test.png`  
+![หน้า Backoffice Overview แสดงการ์ดเมนูผู้ใช้ บัตรเติมเวลา และเมนู GEPOT backoffice](/admin/backoffice/view.png)  
 Description: หน้า Backoffice Overview แสดงการ์ดเมนูผู้ใช้ บัตรเติมเวลา และเมนู GEPOT backoffice  
 Status: `placeholder`
 
@@ -407,16 +425,19 @@ Route: `/private/admin/backoffice/users`
 
 ขั้นตอนใช้งาน  
 1. เปิดหน้า `/private/admin/backoffice/users`  
+![เปิดหน้า `/private/admin/backoffice/users`](/admin/backoffice/user.png) 
 2. ใช้รายการ ตาราง หรือเครื่องมือค้นหาผู้ใช้  
-3. ตรวจสอบข้อมูลเบื้องต้นของแต่ละบัญชี  
-4. เลือกผู้ใช้ที่ต้องการเพื่อเปิดหน้ารายละเอียด
+![ใช้รายการ ตาราง หรือเครื่องมือค้นหาผู้ใช้](/admin/backoffice/selection.png) 
+3. เลือกผู้ใช้ที่ต้องการเพื่อเปิดหน้ารายละเอียดและตรวจสอบข้อมูลเบื้องต้นของแต่ละบัญชี
+![เลือกผู้ใช้ที่ต้องการเพื่อเปิดหน้ารายละเอียดและตรวจสอบข้อมูลเบื้องต้นของแต่ละบัญชี](/admin/backoffice/manage.png)   
+
 
 ผลลัพธ์ที่ควรเห็น  
 หน้าต้องแสดงรายการผู้ใช้ในระบบพร้อมทางเข้าไปยังหน้ารายละเอียดรายคน
 
 รูปประกอบ
-![หน้ารายการผู้ใช้ของแอดมิน แสดงตารางผู้ใช้และ action สำหรับเปิดดูรายละเอียด](./assets/screenshots/admin/test.png)  
-Path: `./assets/screenshots/admin/test.png`  
+![หน้ารายการผู้ใช้ของแอดมิน แสดงตารางผู้ใช้และ action สำหรับเปิดดูรายละเอียด](/admin/backoffice/selection.png) 
+![เลือกผู้ใช้ที่ต้องการเพื่อเปิดหน้ารายละเอียดและตรวจสอบข้อมูลเบื้องต้นของแต่ละบัญชี](/admin/backoffice/manage.png)    
 Description: หน้ารายการผู้ใช้ของแอดมิน แสดงตารางผู้ใช้และ action สำหรับเปิดดูรายละเอียด  
 Status: `placeholder`
 
@@ -431,17 +452,21 @@ Route: `/private/admin/backoffice/users/:id`
 
 ขั้นตอนใช้งาน  
 1. เปิดหน้า `/private/admin/backoffice/users/:id`  
+![เปิดหน้า `/private/admin/backoffice/users/:id`](/admin/backoffice/manage.png)    
 2. ตรวจสอบข้อมูลบัญชีและโปรไฟล์ของผู้ใช้  
+![ตรวจสอบข้อมูลบัญชีและโปรไฟล์ของผู้ใช้ ](/admin/backoffice/ID.png)    
 3. แก้ไขค่าที่ต้องการ เช่น บทบาท สิทธิ์ corporate หรือวันใช้งานคงเหลือ  
 4. ใช้ flow reset password เมื่อต้องการสร้างรหัสผ่านใหม่  
+![ใช้ flow reset password เมื่อต้องการสร้างรหัสผ่านใหม่  `](/admin/backoffice/password.png)    
 5. บันทึกข้อมูลเมื่อแก้ไขเสร็จ
+![บันทึกข้อมูลเมื่อแก้ไขเสร็จ](/admin/backoffice/save.png)    
 
 ผลลัพธ์ที่ควรเห็น  
 หน้าต้องแสดงข้อมูลผู้ใช้แบบละเอียดและมีฟอร์มหรือ control สำหรับแก้ไขค่าหลักของบัญชีได้
 
 รูปประกอบ
-![หน้ารายละเอียดผู้ใช้ของแอดมิน แสดงข้อมูลบัญชี บทบาท วันใช้งานคงเหลือ และปุ่มหรือฟอร์มสำหรับแก้ไขกับรีเซ็ตรหัสผ่าน](./assets/screenshots/admin/test.png)  
-Path: `./assets/screenshots/admin/test.png`  
+![หน้ารายละเอียดผู้ใช้ของแอดมิน แสดงข้อมูลบัญชี บทบาท วันใช้งานคงเหลือ และปุ่มหรือฟอร์มสำหรับแก้ไขกับรีเซ็ตรหัสผ่าน](/admin/backoffice/ID.png) 
+![ใช้ flow reset password เมื่อต้องการสร้างรหัสผ่านใหม่  `](/admin/backoffice/password.png)      
 Description: หน้ารายละเอียดผู้ใช้ของแอดมิน แสดงข้อมูลบัญชี บทบาท วันใช้งานคงเหลือ และปุ่มหรือฟอร์มสำหรับแก้ไขกับรีเซ็ตรหัสผ่าน  
 Status: `placeholder`
 
@@ -455,18 +480,21 @@ Route: `/private/admin/backoffice/card`
 ต้องมีสิทธิ์แอดมินฝั่ง Backoffice
 
 ขั้นตอนใช้งาน  
-1. เปิดหน้า `/private/admin/backoffice/card`  
+1. เปิดหน้า `/private/admin/backoffice/card` 
+![เปิดหน้า `/private/admin/backoffice/card`](/admin/card/open.png)     
 2. กรอกจำนวนวันต่อบัตรและจำนวนบัตรที่ต้องการสร้าง  
+![กรอกจำนวนวันต่อบัตรและจำนวนบัตรที่ต้องการสร้าง ](/admin/card/input.png)    
 3. กดสร้าง PIN และ Code  
+![กดสร้าง PIN และ Code  ](/admin/card/create.png)    
 4. ตรวจสอบผลลัพธ์ที่ระบบสร้างให้  
+![ตรวจสอบผลลัพธ์ที่ระบบสร้างให้](/admin/card/printed.png)    
 5. ดูรายการบัตรทั้งหมด กรองข้อมูล หรือดาวน์โหลดการ์ดตามที่ระบบรองรับ
 
 ผลลัพธ์ที่ควรเห็น  
 หน้าต้องรองรับทั้งส่วนสร้างบัตร ส่วนแสดงผลลัพธ์การสร้าง และส่วนรายการบัตรทั้งหมดในหน้าเดียวกัน
 
 รูปประกอบ
-![หน้าจัดการบัตรเติมเวลา แสดงฟอร์มสร้าง PIN และ Code พร้อมพื้นที่แสดงรายการบัตรที่มีอยู่ในระบบ](./assets/screenshots/admin/test.png)  
-Path: `./assets/screenshots/admin/test.png`  
+![หน้าจัดการบัตรเติมเวลา แสดงฟอร์มสร้าง PIN และ Code พร้อมพื้นที่แสดงรายการบัตรที่มีอยู่ในระบบ]!(/admin/card/printed.png)   
 Description: หน้าจัดการบัตรเติมเวลา แสดงฟอร์มสร้าง PIN และ Code พร้อมพื้นที่แสดงรายการบัตรที่มีอยู่ในระบบ  
 Status: `placeholder`
 
@@ -483,15 +511,17 @@ Route: `/private/admin/backoffice/gepot/tests`
 
 ขั้นตอนใช้งาน  
 1. เปิดหน้า `/private/admin/backoffice/gepot/tests`  
+![เปิดหน้า `/private/admin/backoffice/gepot/tests` ](/admin/gepot/menu.png) 
 2. ตรวจสอบรายการชุดทดสอบที่มีอยู่ในระบบ  
+![ตรวจสอบผลลัพธ์ที่ระบบสร้างให้](/admin/gepot/test.png) 
 3. ใช้ปุ่มที่เกี่ยวข้องเพื่อเปิดรายละเอียด สร้างชุดทดสอบใหม่ หรือไปยังเมนู GEPOT อื่น
+![ตรวจสอบผลลัพธ์ที่ระบบสร้างให้](/admin/gepot/testin.png) 
 
 ผลลัพธ์ที่ควรเห็น  
 หน้าต้องแสดงรายการชุดทดสอบ GEPOT พร้อม action หลักสำหรับดูรายละเอียดและสร้างชุดใหม่
 
 รูปประกอบ
-![หน้ารายการชุดทดสอบ GEPOT แสดงตารางหรือการ์ดของแต่ละ activity พร้อมปุ่มดูรายละเอียดและสร้างใหม่](./assets/screenshots/admin/test.png)  
-Path: `./assets/screenshots/admin/test.png`  
+![หน้ารายการชุดทดสอบ GEPOT แสดงตารางหรือการ์ดของแต่ละ activity พร้อมปุ่มดูรายละเอียดและสร้างใหม่](/admin/gepot/test.png)    
 Description: หน้ารายการชุดทดสอบ GEPOT แสดงตารางหรือการ์ดของแต่ละ activity พร้อมปุ่มดูรายละเอียดและสร้างใหม่  
 Status: `placeholder`
 
@@ -506,16 +536,19 @@ Route: `/private/admin/backoffice/gepot/tests/new`
 
 ขั้นตอนใช้งาน  
 1. เปิดหน้า `/private/admin/backoffice/gepot/tests/new`  
+![`/private/admin/backoffice/gepot/tests/new`](/admin/gepot/create.png) 
 2. กรอกข้อมูลของชุดทดสอบ เช่น ชื่อ activity ช่วงเวลา หรือจำนวนข้อ  
+![กรอกข้อมูลของชุดทดสอบ เช่น ชื่อ activity ช่วงเวลา หรือจำนวนข้อ ](/admin/gepot/info.png) 
 3. ตรวจสอบความถูกต้องของข้อมูล  
 4. บันทึกเพื่อสร้างชุดทดสอบใหม่
+![บันทึกเพื่อสร้างชุดทดสอบใหม่](/admin/gepot/save.png) 
 
 ผลลัพธ์ที่ควรเห็น  
 หน้าต้องแสดงฟอร์มสร้างชุดทดสอบใหม่ และเมื่อบันทึกสำเร็จต้องนำไปยัง flow ถัดไปที่เกี่ยวข้องได้
 
 รูปประกอบ
-![หน้าสร้างชุดทดสอบ GEPOT ใหม่ แสดงฟอร์มชื่อ activity ช่วงเวลา จำนวนข้อ และปุ่มบันทึก](./assets/screenshots/admin/test.png)  
-Path: `./assets/screenshots/admin/test.png`  
+![หน้าสร้างชุดทดสอบ GEPOT ใหม่ แสดงฟอร์มชื่อ activity ช่วงเวลา จำนวนข้อ และปุ่มบันทึก](/admin/gepot/info.png)
+![บันทึกเพื่อสร้างชุดทดสอบใหม่](/admin/gepot/save.png)   
 Description: หน้าสร้างชุดทดสอบ GEPOT ใหม่ แสดงฟอร์มชื่อ activity ช่วงเวลา จำนวนข้อ และปุ่มบันทึก  
 Status: `placeholder`
 
