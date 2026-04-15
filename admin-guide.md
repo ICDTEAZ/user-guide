@@ -36,15 +36,16 @@ Route: `/private/admin`
 ขั้นตอนใช้งาน  
 1. เข้าสู่ระบบด้วยบัญชีแอดมิน  
 2. เปิดหน้า `/private/admin`  
+![เปิดหน้า `/private/admin`](./admin/adminlogin/menu.png) 
 3. ตรวจสอบเมนูหลักที่ระบบแสดง เช่น Academic, Backoffice และงานที่ต้องติดตาม  
+![ตรวจสอบเมนูหลักที่ระบบแสดง เช่น Academic, Backoffice และงานที่ต้องติดตาม  ](./admin/adminlogin/work.png) 
 4. เลือกเมนูที่ต้องการเพื่อเข้าสู่หน้าจัดการถัดไป
 
 ผลลัพธ์ที่ควรเห็น  
 หน้า dashboard ต้องแสดงการ์ดหรือเมนูหลักของงานแอดมินครบถ้วน และแต่ละรายการต้องกดเข้าไปยังหน้าที่เกี่ยวข้องได้
 
 รูปประกอบ
-![หน้า Dashboard แอดมินแสดงการ์ดเมนูหลักสำหรับเข้าจัดการ Academic, Backoffice และงานดูแลระบบ](./assets/screenshots/admin/test.png)  
-Path: `./assets/screenshots/admin/test.png`  
+![หน้า Dashboard แอดมินแสดงการ์ดเมนูหลักสำหรับเข้าจัดการ Academic, Backoffice และงานดูแลระบบ](./admin//adminlogin/menu.png) 
 Description: หน้า Dashboard แอดมินแสดงการ์ดเมนูหลักสำหรับเข้าจัดการ Academic, Backoffice และงานดูแลระบบ  
 Status: `placeholder`
 
@@ -59,16 +60,19 @@ Route: `/private/admin/ask-our-academic/review/:id`
 
 ขั้นตอนใช้งาน  
 1. เปิดหน้า `/private/admin/ask-our-academic/review/:id` ของรายการที่ต้องการ  
+![เปิดหน้า `/private/admin/ask-our-academic/review/:id` ของรายการที่ต้องการ  ](./admin/askadmin/choose.png)
 2. อ่านคำถามและรายละเอียดประกอบจากผู้ใช้  
-3. ตรวจสอบคำตอบหรือสถานะของรายการ  
+![อ่านคำถามและรายละเอียดประกอบจากผู้ใช้ ](./admin/askadmin/read.png)
+3. กรอกคำตอบในช่องข้อความ  
+![กรอกคำตอบในช่องข้อความ ](./admin/askadmin/reply.png)
 4. ดำเนินการตาม flow ที่หน้าเว็บรองรับ เช่น ตอบกลับ ปรับสถานะ หรือยกเลิกการทำรายการ
+![ดำเนินการตาม flow ที่หน้าเว็บรองรับ เช่น ตอบกลับ ปรับสถานะ หรือยกเลิกการทำรายการ](./admin/askadmin/task.png)
 
 ผลลัพธ์ที่ควรเห็น  
 หน้าต้องแสดงรายละเอียดของคำถาม Ask Our Academic ในระดับที่แอดมินใช้ตรวจสอบและจัดการต่อได้
 
 รูปประกอบ
-![หน้ารีวิว Ask Our Academic ของแอดมิน แสดงคำถาม รายละเอียดผู้ส่ง และส่วนที่ใช้ตรวจทานหรืออัปเดตสถานะ](./assets/screenshots/admin/test.png)  
-Path: `./assets/screenshots/admin/test.png`  
+![หน้ารีวิว Ask Our Academic ของแอดมิน แสดงคำถาม รายละเอียดผู้ส่ง และส่วนที่ใช้ตรวจทานหรืออัปเดตสถานะ](./admin/askadmin/review.png)  
 Description: หน้ารีวิว Ask Our Academic ของแอดมิน แสดงคำถาม รายละเอียดผู้ส่ง และส่วนที่ใช้ตรวจทานหรืออัปเดตสถานะ  
 Status: `placeholder`
 
@@ -85,15 +89,17 @@ Route: `/private/admin/academic`
 
 ขั้นตอนใช้งาน  
 1. เปิดหน้า `/private/admin/academic`  
+![เปิดหน้า `/private/admin`](./admin/adminlogin/menu.png) 
 2. ดูเมนูย่อยที่ระบบเปิดใช้งานจริงในหมวดวิชาการ  
+![ดูเมนูย่อยที่ระบบเปิดใช้งานจริงในหมวดวิชาการ](./admin/academic/click.png) 
 3. เลือกไปจัดการ Lesson หรือ Question ตามงานที่ต้องการ
+![เลือกไปจัดการ Lesson หรือ Question ตามงานที่ต้องการ](./admin/academic/choose.png) 
 
 ผลลัพธ์ที่ควรเห็น  
 หน้าต้องแสดงเมนูวิชาการที่ใช้งานจริงในโปรเจกต์ปัจจุบัน โดยไม่ดึงเมนู legacy ที่ไม่มี route รองรับใน flow หลักเข้ามาปะปน
 
 รูปประกอบ
-![หน้า Academic Overview แสดงการ์ดเมนู Lesson และ Question ที่เป็นทางเข้าหลักของงานวิชาการ](./assets/screenshots/admin/test.png)  
-Path: `./assets/screenshots/admin/test.png`  
+![หน้า Academic Overview แสดงการ์ดเมนู Lesson และ Question ที่เป็นทางเข้าหลักของงานวิชาการ](./admin/academic/choose.png) 
 Description: หน้า Academic Overview แสดงการ์ดเมนู Lesson และ Question ที่เป็นทางเข้าหลักของงานวิชาการ  
 Status: `placeholder`
 
@@ -107,17 +113,19 @@ Route: `/private/admin/academic/lesson`
 ต้องมีสิทธิ์แอดมินด้านวิชาการ
 
 ขั้นตอนใช้งาน  
-1. เปิดหน้า `/private/admin/academic/lesson`  
+1. เปิดหน้า `/private/admin/academic/lesson` 
+![เปิดหน้า `/private/admin/academic/lesson`](./admin/lesson/open.png)  
 2. ดูรายการบทเรียนที่มีในระบบ  
+![ดูรายการบทเรียนที่มีในระบบ](./admin/lesson/look.png)  
 3. เลือกเพิ่มบทเรียนใหม่หรือเปิดบทเรียนเดิมเพื่อแก้ไข  
+![เลือกเพิ่มบทเรียนใหม่หรือเปิดบทเรียนเดิมเพื่อแก้ไข](./admin/lesson/add.png)  
 4. ตรวจสอบว่ารายการที่แสดงสามารถใช้เป็นจุดเริ่มต้นของงานจัดการบทเรียนได้
 
 ผลลัพธ์ที่ควรเห็น  
 หน้าต้องแสดงรายการ lesson ในระบบพร้อม action หลักสำหรับเพิ่มและแก้ไข
 
 รูปประกอบ
-![หน้าจัดการบทเรียนของแอดมิน แสดงรายการ lesson และปุ่มไปเพิ่มหรือแก้ไขบทเรียน](./assets/screenshots/admin/test.png)  
-Path: `./assets/screenshots/admin/test.png`  
+![หน้าจัดการบทเรียนของแอดมิน แสดงรายการ lesson และปุ่มไปเพิ่มหรือแก้ไขบทเรียน](./admin/academic/choose.png) 
 Description: หน้าจัดการบทเรียนของแอดมิน แสดงรายการ lesson และปุ่มไปเพิ่มหรือแก้ไขบทเรียน  
 Status: `placeholder`
 
@@ -132,16 +140,19 @@ Route: `/private/admin/academic/lesson/add`
 
 ขั้นตอนใช้งาน  
 1. เปิดหน้า `/private/admin/academic/lesson/add`  
-2. กรอกข้อมูล lesson ตามฟอร์มที่ระบบกำหนด  
+![เปิดหน้า `/private/admin/academic/lesson/add`](./admin/lesson/add.png)  
+2. กรอกข้อมูล lesson ตามฟอร์มที่ระบบกำหนด 
+![2. กรอกข้อมูล lesson ตามฟอร์มที่ระบบกำหนด](./admin/addlesson/type.png)  
 3. ตรวจสอบความถูกต้องของข้อมูลก่อนบันทึก  
 4. กดบันทึกเพื่อสร้างบทเรียนใหม่
+![4. กดบันทึกเพื่อสร้างบทเรียนใหม่](./admin/addlesson/save.png)  
 
 ผลลัพธ์ที่ควรเห็น  
 หน้าต้องแสดงฟอร์มเพิ่ม lesson อย่างครบถ้วนและรองรับการบันทึกข้อมูลใหม่ได้
 
 รูปประกอบ
-![หน้าเพิ่มบทเรียนใหม่ของแอดมิน แสดงฟอร์มข้อมูล lesson และปุ่มบันทึก](./assets/screenshots/admin/test.png)  
-Path: `./assets/screenshots/admin/test.png`  
+![หน้าเพิ่มบทเรียนใหม่ของแอดมิน แสดงฟอร์มข้อมูล lesson และปุ่มบันทึก](./admin/addlesson/type.png) 
+![4. กดบันทึกเพื่อสร้างบทเรียนใหม่](./admin/addlesson/save.png)   
 Description: หน้าเพิ่มบทเรียนใหม่ของแอดมิน แสดงฟอร์มข้อมูล lesson และปุ่มบันทึก  
 Status: `placeholder`
 
@@ -156,16 +167,20 @@ Route: `/private/admin/academic/lesson/update-lesson`
 
 ขั้นตอนใช้งาน  
 1. เปิดหน้า `/private/admin/academic/lesson/update-lesson` จากรายการบทเรียน  
-2. ตรวจสอบข้อมูลเดิมที่ระบบโหลดขึ้นมา  
+![เปิดหน้า `/private/admin/academic/lesson/update-lesson` จากรายการบทเรียน  ](./admin/lesson/look.png)  
+2. ตรวจสอบข้อมูลเดิมที่ระบบโหลดขึ้นมา 
+![ตรวจสอบข้อมูลเดิมที่ระบบโหลดขึ้นมา](./admin/editlesson/menu.png)   
 3. แก้ไขข้อมูล lesson ตามที่ต้องการ  
+![แก้ไขข้อมูล lesson ตามที่ต้องการ](./admin/editlesson/eadit.png)  
 4. บันทึกการเปลี่ยนแปลง
+![บันทึกการเปลี่ยนแปลง](./admin/editlesson/save.png)  
 
 ผลลัพธ์ที่ควรเห็น  
 หน้าต้องโหลดข้อมูล lesson เดิมขึ้นมาให้แก้ไข และต้องบันทึกกลับได้เมื่อกรอกข้อมูลถูกต้อง
 
 รูปประกอบ
-![หน้าแก้ไขบทเรียนของแอดมิน แสดงข้อมูล lesson เดิมในฟอร์มและปุ่มบันทึกการเปลี่ยนแปลง](./assets/screenshots/admin/test.png)  
-Path: `./assets/screenshots/admin/test.png`  
+![หน้าแก้ไขบทเรียนของแอดมิน แสดงข้อมูล lesson เดิมในฟอร์มและปุ่มบันทึกการเปลี่ยนแปลง](./admin/editlesson/eadit.png) 
+![บันทึกการเปลี่ยนแปลง](./admin/editlesson/save.png)    
 Description: หน้าแก้ไขบทเรียนของแอดมิน แสดงข้อมูล lesson เดิมในฟอร์มและปุ่มบันทึกการเปลี่ยนแปลง  
 Status: `placeholder`
 
