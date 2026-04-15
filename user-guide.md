@@ -188,18 +188,22 @@ Route: `/private/report`
    2. กดปุ่ม ดูตามระดับที่เลือก
    ![กดปุ่ม ดูตามระดับที่เลือก](./reports/level.png)
    3. กดปุ่มไช้ตัวกรองประภท/ระดับ
-    ![กดปุ่มไช้ตัวกรองประภท/ระดับ](./reports/ตัวอย่าง.png)
+    ![กดปุ่มไช้ตัวกรองประภท/ระดับ](./reports/กด.png)
     4. ตัวอย่าง ranking ในเวลาที่เลือก
-    ![ตัวอย่าง ranking ในเวลาที่เลือก](./reports/ตัวอย่าง.png)
+    ![ตัวอย่าง ranking ในเวลาที่เลือก](./reports/rank.png)
     5. ตัวอย่างประวัติการสอบใน skill และ level ที่เลือก
-    ![ตัวอย่างประวัติการสอบใน skill และ level ที่เลือก](./reports/ตัวอย่าง.png)
+    ![ตัวอย่างประวัติการสอบใน skill และ level ที่เลือก](./reports/history.png)
 
 ### 2.4 EOL Standard Test 
 Route: `/private/eol-standard-test`
 
 1. เกณฑ์ใช้งาน: ต้องผ่านคะแนน 50% ขึ้นไป ในทุกสกิล (Reading, Listening, Speaking, Writing, Grammar, Vocabulary) ที่ระดับ B1 ขึ้นไป ก่อนเริ่ม EOL Standard Test
+![เกณฑ์ใช้งาน: ต้องผ่านคะแนน 50% ขึ้นไป ในทุกสกิล (Reading, Listening, Speaking, Writing, Grammar, Vocabulary) ที่ระดับ B1 ขึ้นไป ก่อนเริ่ม EOL Standard Test](./2.4/condition.png)
     1. ตัวอย่าง: ไม่ผ่านเงื่อนไข
+    ![ตัวอย่าง: ไม่ผ่านเงื่อนไข](./2.4/banned.png)
     2. หลังจากผ่านเกณฑ์แล้ว สามารถกดปุ่ม เริ่มสอบ เพื่อเข้าสู่หน้าสอบ EOL Standard Test
+    ![หลังจากผ่านเกณฑ์แล้ว สามารถกดปุ่ม เริ่มสอบ เพื่อเข้าสู่หน้าสอบ EOL Standard Test](./2.4/ok.png)
 2. หากผ่านแล้ว ให้ กดปุ่ม EOL standard test เพื่อเข้าสู่หน้าสอบ EOL Standard Test
 3. เริ่มทำข้อสอบ EOL Standard Test โดยทำตามขั้นตอนการทำข้อสอบเหมือนกับการทำข้อสอบในหัวข้อ test-and-evaluation
 4. sohk report จะทำการประเมินผู้ไช้หลังจากสอบเสร็จ ตามมาตรฐาน CEFR และแสดงผลการสอบในหน้ารายงาน
+![sohk report จะทำการประเมินผู้ไช้หลังจากสอบเสร็จ ตามมาตรฐาน CEFR และแสดงผลการสอบในหน้ารายงาน](./2.4/done.png)
